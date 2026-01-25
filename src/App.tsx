@@ -9,14 +9,14 @@ import { Navbar } from "./components/Navbar";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
+    <div className="min-h-screen bg-linear-to-br from-slate-50 via-blue-50 to-slate-100">
       <Navbar />
       <Hero />
       <About />
       <Skills />
       <Experience />
-      <Education />
       <Projects />
+      <Education />
       <Footer />
     </div>
   );

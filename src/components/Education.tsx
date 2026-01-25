@@ -4,18 +4,13 @@ import { motion } from "motion/react";
 const education = [
   {
     degree: "Master of Information and Communication Technology",
-    institution: "Western Sydney University",
+    institution: "Western Sydney University, Sydney, Australia",
     period: "Oct 2024 – Oct 2026",
   },
   {
     degree: "BSc (Hons) Computer Science & Software Engineering",
-    institution: "University of Bedfordshire",
-    period: "2017 – 2020",
-  },
-  {
-    degree: "+2 Science",
-    institution: "National School of Sciences",
-    period: "2015 – 2017",
+    institution: "University of Bedfordshire, Kathmandu, Nepal",
+    period: "Sept 2017 – Sept 2020",
   },
 ];
 
@@ -48,7 +43,7 @@ export function Education() {
                   <motion.div
                     whileHover={{ rotate: 360 }}
                     transition={{ duration: 0.6 }}
-                    className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center flex-shrink-0 mt-1"
+                    className="w-10 h-10 rounded-lg bg-linear-to-br from-blue-500 to-blue-600 flex items-center justify-center shrink-0 mt-1"
                   >
                     <GraduationCap className="w-5 h-5 text-white" />
                   </motion.div>
